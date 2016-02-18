@@ -18,7 +18,7 @@ primes = [2]
 
 @execTime
 def calcPrime(num):
-    for n in range(3, num + 1):
+    for n in range(3, num + 1, 2):
         if isPrime(n):
             primes.append(n)
             if n is num: return True
@@ -34,4 +34,4 @@ def isPrime(num):
 num = 100000
 print(num, "is a prime number:", calcPrime(num) is True)
 print("小于", num, "的最小素数是", primes[len(primes) - 1])
-print(primes)
+print(len(primes), primes)
