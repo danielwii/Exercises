@@ -1,1 +1,3 @@
-Algorithm Exercise 算法练习
+# Exercise
+
+## Algorithm Exercise
